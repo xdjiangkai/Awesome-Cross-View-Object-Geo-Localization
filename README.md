@@ -1,4 +1,4 @@
-# Awesome Cross-View Object Geo-Localization (CVOGL)
+# Awesome Cross-View Object Geo-Localization
 
 A curated list of state-of-the-art methods, datasets, and resources for **Cross-View Object Geo-Localization**, focusing on object-level alignment between ground/drone views and satellite imagery.
 
