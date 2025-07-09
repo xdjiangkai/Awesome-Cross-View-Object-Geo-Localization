@@ -24,7 +24,7 @@ A curated list of state-of-the-art methods, datasets, and resources for **Cross-
 
 ---
 
-### [2025 September] Improving Cross-view Object Geo-localization: A Dual Attention Approach with Cross-view Interaction and Multi-Scale Spatial Features [[Paper](https://openreview.net/pdf?id=LnRegTxsa4)] [Code]
+### [2024 Sept] Improving Cross-view Object Geo-localization: A Dual Attention Approach with Cross-view Interaction and Multi-Scale Spatial Features [[Paper](https://openreview.net/pdf?id=LnRegTxsa4)] [Code]
 - **Core Idea**: Address information transfer inefficiency and edge noise interference in cross-view localization by introducing dual attention mechanisms for enhanced feature interaction and multi-scale spatial perception.
 - **Key Modules**:
   - **Cross-view and Cross-attention Module**: Conducts multiple iterations of cross-attention between query and reference features, enabling bidirectional contextual information exchange to suppress irrelevant noise. 
@@ -33,7 +33,7 @@ A curated list of state-of-the-art methods, datasets, and resources for **Cross-
 
 ---
 
-### [2025 January] VAGeo: View-Specific Attention for Cross-View Object Geo-Localization [[Paper](https://arxiv.org/pdf/2501.07194)] [Code not available]
+### [2025 Jan] VAGeo: View-Specific Attention for Cross-View Object Geo-Localization [[Paper](https://arxiv.org/pdf/2501.07194)] [Code not available]
 - **Core Idea**: Addresses inherent viewpoint discrepancies between ground/drone and satellite imagery by introducing view-specific positional encoding and hybrid attention
 - **Key Modules**:
   - **View-Specific Positional Encoding**:  
@@ -44,7 +44,7 @@ A curated list of state-of-the-art methods, datasets, and resources for **Cross-
 
 ---
 
-### [2025 March] Attention-Driven Object Encoding and Multiscale Contextual Perception for Improved Cross-View Object Geo-Localization [[Paper](https://ieeexplore.ieee.org/abstract/document/10964230)] [[Code](https://github.com/HaoshuaiSong/AMPNet-CVOGL)]
+### [2025 Mar] Attention-Driven Object Encoding and Multiscale Contextual Perception for Improved Cross-View Object Geo-Localization [[Paper](https://ieeexplore.ieee.org/abstract/document/10964230)] [[Code](https://github.com/HaoshuaiSong/AMPNet-CVOGL)]
 - **Core Idea**: Enhances object shape/size modeling and handles scale variation in remote sensing images through multiscale feature extraction
 - **Key Modules**:
   - **Attention-Driven Object Encoding**: Segments objects using SAM (Segment Anything Model) and integrates geometric priors (shape, size) into feature representation  
