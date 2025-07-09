@@ -59,7 +59,6 @@ A curated list of state-of-the-art methods, datasets, and resources for **Cross-
 | Dataset       | Views                  | Size                | Annotations                          | Key Features                                  |
 |---------------|------------------------|---------------------|--------------------------------------|-----------------------------------------------|
 | CVOGL         | Ground/drone + Satellite | 12k instances       | Click points, bounding boxes         | Objects: buildings, bridges, roundabouts; large scale variations (500–18,000 m²) .
-| University-1652 | Ground/drone + Satellite | 1652 geographic targets | Multi-view images per target        | Covers 72 universities; supports multi-source view matching .
 | CVOGL-fewshot | Drone + Satellite      | 52 instances (4 new classes) | Click points, bounding boxes         | Extends CVOGL with novel objects (lake, port) for few-shot evaluation .
 
 
