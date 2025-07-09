@@ -17,7 +17,7 @@ A curated list of state-of-the-art methods, datasets, and resources for **Cross-
 ## Methods
 
 ### View-Specific Attention Methods
-#### VAGeo: View-specific Attention for CVOGL
+#### VAGeo: View-specific Attention for CVOGL [Paper](https://arxiv.org/pdf/2501.07194) [Code]
 - **Core Idea**: Address inherent viewpoint discrepancies between ground/drone views and satellite imagery by designing view-specific positional encoding and hybrid attention.
 - **Key Modules**:
   - **View-Specific Positional Encoding (VSPE)**: 
