@@ -62,7 +62,14 @@ A curated list of state-of-the-art methods, datasets, and resources for **Cross-
 - **Performance**: On the CVOGL dataset, achieves *Drone → Satellite* Acc@0.25 of **68.35%**, with strong few-shot generalization (**29.17%** Acc@0.25 on novel classes)
 
 
-
+### [2025 Nov] AdaptGeo: Parameter-Efficient Cross-View Geo-Localization via Frozen Foundation Model and Transformer Adapter [[Paper]](https://ieeexplore.ieee.org/document/3635418) [[Code]](Not available)
+- **Core Idea**: Addresses the high resource cost of full model fine-tuning for cross-view geo-localization by proposing a parameter-efficient framework with frozen vision foundation model and lightweight Transformer adapter, realizing UAV-satellite feature alignment while reducing trainable parameters significantly.
+- **Key Modules**:
+  - **Frozen DINOv2 Backbone**: Freezes ViT-B/14/Large variants to extract global class token and local patch token features without parameter updates, retaining pre-trained strong semantic representations.
+  - **Lightweight Transformer Adapter**: Adopts lightweight design (fewer attention heads, lower FFN expansion ratio) with position embedding, Transformer blocks and MLP refinement head, only introducing 3.6%-12.8% trainable parameters of the backbone and using branch-independent feature enhancement for cross-view matching.
+  - **Multi-Objective Learning Strategy**: Integrates triplet loss, KL divergence loss and cross-entropy loss to jointly optimize view-invariant feature learning and location discriminability.
+  - **Feature Pre-Extraction**: Extracts and caches backbone features once for reuse in training, inference and multi-tasks, eliminating redundant computations and reducing memory and time costs.
+- **Performance**: On University-1652 dataset, achieves 88.07% R@1 (D2S) and 92.35% R@1 (S2D) with DINOv2-Base, and 90.22% R@1 (D2S) and 93.87% R@1 (S2D) with DINOv2-Large; on SUES-200 dataset (300m height), reaches 93.28% R@1 (D2S) and 97.50% R@1 (S2D) with DINOv2-Large. Reduces trainable parameters by over 87% compared with full fine-tuning methods, and GPU memory usage drops from 17.2GB to 3.0GB for DINOv2-Base with feature pre-extraction.
 
 ---
 
